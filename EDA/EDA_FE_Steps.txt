@@ -145,5 +145,7 @@ An Outlier Dilemma: Drop or Cap
 upper_lim = data['column'].quantile(.95)
 lower_lim = data['column'].quantile(.05)
 
+this is end of file
+
 data.loc[(df[column] > upper_lim),column] = upper_lim
 data.loc[(df[column] < lower_lim),column] = lower_lim
