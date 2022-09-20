@@ -14,6 +14,8 @@ EDA - Exploratory Data Analysis
 
 One of the most important steps in Data Analytics
 
+hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+
 Definitions
 ============
 Exploratory Data Analysis (EDA) is an approach/philosophy for data analysis that employs a variety of techniques (mostly graphical) to
@@ -110,6 +112,8 @@ Box plots are a standardized way of displaying the distribution of data based on
  * third quartile (Q3)
  * maximum
  
+ hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+ 
 IQR= Q3-Q1
 
 Box-plot is used to identify the outlier values.
@@ -149,3 +153,5 @@ this is end of file
 
 data.loc[(df[column] > upper_lim),column] = upper_lim
 data.loc[(df[column] < lower_lim),column] = lower_lim
+
+changing the last line
